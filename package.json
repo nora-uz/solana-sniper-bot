@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build:bot": "tsc -p tsconfig.json",
+    "bot": "npm run build:bot && node dist/bot.js"
   },
   "dependencies": {
     "next": "14.2.34",
