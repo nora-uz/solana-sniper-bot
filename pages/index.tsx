@@ -6,7 +6,7 @@ export default function Home() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, sans-serif",
+        fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
       }}
     >
       <h1>Solana Sniper Bot</h1>
