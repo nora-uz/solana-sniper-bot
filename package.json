@@ -1,25 +1,13 @@
 {
-  "name": "solana-sniper-bot",
-  "version": "1.0.0",
-  "description": "Automated Solana token sniper bot using Helius RPC",
-  "main": "dist/bot.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/bot.js",
-    "dev": "ts-node src/bot.ts"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": ["solana", "sniper", "bot", "trading"],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "@solana/web3.js": "^1.91.0",
-    "axios": "^1.6.0",
-    "dotenv": "^16.3.1",
-    "bs58": "^5.0.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.0.0",
-    "typescript": "^5.0.0",
-    "ts-node": "^10.0.0"
+    "next": "14.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    // оставь то, что уже есть, не удаляя
   }
 }
